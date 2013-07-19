@@ -1,5 +1,9 @@
 *.class
 
+#ignore bin and gen
+bin/
+gen/
+
 # Package Files #
 *.jar
 *.war

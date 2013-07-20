@@ -6,7 +6,10 @@
     <string name="hello_world">Hello world!</string>
     
     <!-- Side Menu Strings -->
-    <string name="my_location">My Location</string>
+    <string name="location_services">Location Services</string>
+    <string name="my_location">My Location Information</string>
 	<string name="lat">Latitude</string>
 	<string name="longitude">Longitude</string>
+	<string name="altitude">Altitude</string>
+	<string name="show_current_location">Show Current Location</string>
 </resources>

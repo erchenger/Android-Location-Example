@@ -14,13 +14,18 @@
         <TextView
             style="@style/wrap"
             android:layout_marginRight="20dp"
-            android:text="@string/my_location" />
+            android:text="@string/location_services" />
 
         <ToggleButton
             android:id="@+id/track_location"
             style="@style/wrap" />
     </LinearLayout>
 
+    <!-- Location Information -->
+
+    <TextView
+        style="@style/section_title"
+        android:text="@string/my_location" />
     <!-- Lat -->
 
     <LinearLayout
@@ -28,7 +33,7 @@
         android:orientation="horizontal" >
 
         <TextView
-            style="@style/wrap"
+            style="@style/body"
             android:layout_marginRight="20dp"
             android:text="@string/lat" />
 
@@ -36,13 +41,15 @@
             android:id="@+id/latitude"
             style="@style/wrap" />
     </LinearLayout>
+
     <!-- Long -->
+
     <LinearLayout
         style="@style/wrap"
         android:orientation="horizontal" >
 
         <TextView
-            style="@style/wrap"
+            style="@style/body"
             android:layout_marginRight="20dp"
             android:text="@string/longitude" />
 
@@ -50,5 +57,27 @@
             android:id="@+id/longitude"
             style="@style/wrap" />
     </LinearLayout>
+    <!-- Altitude -->
+
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/body"
+            android:layout_marginRight="20dp"
+            android:text="@string/altitude" />
+
+        <TextView
+            android:id="@+id/altitude"
+            style="@style/wrap" />
+    </LinearLayout>
+
+    <!-- Show Current Location -->
+
+    <Button
+        style="@style/wrap"
+        android:layout_marginTop="20dp"
+        android:text="@string/show_current_location" />
 
 </LinearLayout>

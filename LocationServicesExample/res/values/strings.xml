@@ -4,5 +4,9 @@
     <string name="app_name">Location Services Example</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    
+    <!-- Side Menu Strings -->
+    <string name="my_location">My Location</string>
+	<string name="lat">Latitude</string>
+	<string name="longitude">Longitude</string>
 </resources>

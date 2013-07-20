@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="300dp"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
+    android:orientation="vertical"
+    android:paddingLeft="30dp" >
+
+    <!-- My Location -->
+
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/wrap"
+            android:layout_marginRight="20dp"
+            android:text="@string/my_location" />
+
+        <ToggleButton
+            android:id="@+id/track_location"
+            style="@style/wrap" />
+    </LinearLayout>
+
+    <!-- Lat -->
+
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/wrap"
+            android:layout_marginRight="20dp"
+            android:text="@string/lat" />
+
+        <TextView
+            android:id="@+id/latitude"
+            style="@style/wrap" />
+    </LinearLayout>
+    <!-- Long -->
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/wrap"
+            android:layout_marginRight="20dp"
+            android:text="@string/longitude" />
+
+        <TextView
+            android:id="@+id/longitude"
+            style="@style/wrap" />
+    </LinearLayout>
 
 </LinearLayout>
